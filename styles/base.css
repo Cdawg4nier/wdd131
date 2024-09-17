@@ -1,3 +1,11 @@
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 body {
     color: white;
     display: grid;
@@ -24,9 +32,11 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* hover*/
 }
 
 main {
+    max-width: 100%;
     padding: 20px;
     font-size: x-large;
     color: black;
