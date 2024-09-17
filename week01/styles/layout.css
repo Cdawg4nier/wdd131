@@ -1,0 +1,44 @@
+body {
+    color: white;
+    display: grid;
+    height: 100vh;
+    grid-template: auto 50px 2fr 1fr / 2fr 2fr 1fr;
+}
+
+header {
+    background: #333333;
+    padding: 2rem;
+    grid-column: 1/4;
+}
+
+.nav-topbar {
+    font-size: large;
+    background: #000000;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    font-size: x-large;
+    color: black;
+    background: #cccccc;
+    grid-column: 1/3;
+}
+
+.right-sidebar {
+    font-size: x-large;
+    color: black;
+    background: #ffffff;
+    grid-column: 3/4;
+    padding: 1rem;
+}
+
+footer {
+    font-size: x-large;
+    background: #333333;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1/4;
+}
