@@ -9,43 +9,63 @@
     <meta name="description"
         content="WDD 131 - Dynamic Web Fundamentals - Christian Fournier - Get to know me home page">
     <meta name="author" content="Christian Fournier">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals - Christian Fournier</h1>
+        <h1>WDD 131 - Dynamic Web Fundamentals - <span class="highlight">Christian Fournier</span></h1>
         <nav>
-            <a> Linked in</a>
-            <a> I-learn</a>
-            <a> Scripture</a>
-            <a> Final Project</a>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/cdawg4nier">LinkedIn </a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn </a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p26-p28#p26">Scripture
+                    </a></li>
+                <li><a href="https://example.com">Final Project </a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="card">
-            <h2>
-                <div>
-                    <img>
-                </div>
-                <div>
-                    <img>
-                </div>
-            </h2>
-            About Me
+        <section class="card" id="card-1">
+            <h2>About Me</h2>
+            <div class="blurb-1">
+                <p>My name is Christian Fournier. I was born in Colorado Springs on September 17, 2000, in the glorious
+                    year of the gold dragon.
+                    I have lived in Colorado for 24 years, with only a short stint to South Korea for my mission.
+                    I own a small game development studio, and am currently prototyping my companies very first card
+                    game, in the hopes
+                    it will be ready for print by the end of next year. A huge goal for my career is to land an
+                    internship
+                    at a game studio, such as Riot Games or Blizzard Entertainment, and work hard to become a game
+                    developer.
+                </p>
+                <img src="images/me.webp" alt="A dashingly handsome young fellow">
+            </div>
+            <h3>Hobbies and Interests</h3>
+            <div class="blurb-2">
+                <img src="images/interests.webp" alt="A hand-written playing card for a card game with lots of colors">
+                <p>I am a fan of all things that involve games, be it board games, video games, card games, tabletop
+                    games, or roleplaying games. Outside of work and school, I spend my time playing and creating my
+                    own games.
+                    When I'm not playing games, I'm hanging out with my pet boa constrictor named Rex, riding my
+                    motorcycle, or sleeping.
+                </p>
+            </div>
         </section>
-        <section class="card">
-            <h2>
-
-            </h2>
-            Web Dev Resources
+        <section class="card" id="card-2">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://github.com/Cdawg4nier/wdd131">WDD 131 Repository </a></li>
+                <li><a href="https://www.w3schools.com/">Web 3 School </a></li>
+                <li><a href="https://www.youtube.com/watch?v=2TV0r94p8OY&list=PLbbtODcOYIoFs0PDlTdxpEsZiyDR2q9aA">Web 3
+                        Tutorial Videos </a></li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p> Copyright sumbol</p>
-        <p> Last modified:</p>
+        <p> ©<span id="currentyear"> </span> Christian Fournier, United States</p>
+        <p id="lastModified"></p>
     </footer>
 
 </body>
