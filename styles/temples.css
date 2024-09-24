@@ -1,0 +1,89 @@
+:root {
+    --main-font-family: 'Space Grotesk';
+    --primary-color-1: #25ffd4;
+    --primary-color-2: #000000;
+    --primary-color-3: #363946;
+    --primary-color-4: #a9d3ff;
+}
+
+a {
+    color: var(--primary-color-1);
+}
+
+nav a:hover {
+    color: purple;
+}
+
+header {
+    background-color: var(--primary-color-3);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color-4);
+    text-align: center;
+}
+
+nav {
+    display: none;
+}
+
+main {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-color-4);
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#BurgerMenu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+footer {
+    background-color: var(--primary-color-3);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav.isVisible {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--primary-color-4);
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+nav.isVisible a {
+    border: 2px solid var(--primary-color-3);
+    padding: 5px;
+    color: black;
+}
+
+nav.isVisible a:hover {
+    color: purple;
+}
