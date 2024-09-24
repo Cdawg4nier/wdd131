@@ -1,13 +1,5 @@
 @media screen and (min-width: 640px) {
 
-    :root {
-        --main-font-family: 'Space Grotesk';
-        --primary-color-1: #25ffd4;
-        --primary-color-2: #000000;
-        --primary-color-3: #363946;
-        --primary-color-4: #a9d3ff;
-    }
-
     #BurgerMenu {
         display: none;
     }
