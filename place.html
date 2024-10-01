@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Website</title>
+    <meta name="description"
+        content="WDD 131 - Country website to practice using responsive image web design, javascript functions, and wireframe design">
+    <meta name="author" content="Christian Fournier">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Fantasia</h1>
+        </div>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 1024px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 768px)">
+            <img src="images/hero-small.webp"
+                alt="A beautiful fantasy city with multiple moons and high rising asian style skyscrapers at twilight">
+        </picture>
+        <div class="data-box">
+            <h2>Data</h2>
+            <p>Area: 281,627 square miles</p>
+            <p>Population: 5,500,000</p>
+            <p>Capital: Eldoria</p>
+            <p>Language(s): English</p>
+            <p>Currency: Imperial Gold Coin (gp)</p>
+            <p>Calling Code: +489</p>
+            <p>Internet TLD: .fa</p>
+        </div>
+        <div class="weather-box">
+            <h2>Weather</h2>
+            <img class="weather-svg" src="images/1530391_weather_clouds_sun_sunny_icon.svg"
+                alt="The sun hidden by clouds" width="50" height="50">
+            <p id="temperature">Temperature: <span id="temp-value">65</span> °F</p>
+            <p id="conditions">Conditions: Cloudy</p>
+            <p id="wind-speed">Wind: <span id="wind-value">5</span> mph</p>
+            <p class="wind-chill-p">Wind Chill: <span id="wind-chill-value">N/A</span></p>
+        </div>
+
+    </main>
+    <footer>
+        <p> ©<span id="current-year"> </span> Christian Fournier, United States</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+
+</html>
