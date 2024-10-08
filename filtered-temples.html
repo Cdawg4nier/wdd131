@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Filtered Temple Picture Album</title>
+    <meta name="description"
+        content="A responsive mobile first website displaying pictures of temples, implementing lazy loading">
+    <meta name="author" content="Christian Fournier">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131 - Temple Album</h1>
+        <button type="button" id="BurgerMenu" aria-label="Open menu"></button>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#old">Old</a>
+            <a href="#new">New</a>
+            <a href="#large">Large</a>
+            <a href="#small">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2> Home</h2>
+        <div id="Image-Primary-Container"></div>
+    </main>
+
+    <footer>
+        <p> ©<span id="current-year"> </span> Christian Fournier, United States</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+
+</html>
