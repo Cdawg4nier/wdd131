@@ -31,7 +31,8 @@ label {
 
 select,
 input[type="date"],
-input[type="text"] {
+input[type="text"],
+textarea {
     display: block;
     border: solid 1px var(--color-2);
     border-radius: 5px;
@@ -67,10 +68,27 @@ input[type="submit"] {
     margin: 1rem 2% 1rem 2%;
 }
 
+div {
+    background-color: var(--color-4);
+    padding: 10px;
+}
+
 footer {
     font-family: var(--primary-font);
     background-color: var(--color-1);
     color: var(--color-3);
     padding: 20px;
     text-align: center;
+}
+
+.thank-you-box {
+    margin: 0 auto;
+    background-color: #000000;
+    color: var(--color-2);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

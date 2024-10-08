@@ -18,36 +18,35 @@
         <h1>Product Review</h1>
     </header>
     <main>
-        <form method="get">
+        <form action="review.html" method="get">
             <label>Choose an option:
                 <select id="dropdown" name="products" required>
                     <option value="" disabled selected>Select an option</option>
                 </select>
             </label>
-            <label class="section-1">Overall Rating
-                <label for="option1"><input type="radio" id="option2" name="options" value="option2"> 1 Star</label>
-                <label for="option2"><input type="radio" id="option1" name="options" value="option1" required> 2
-                    Stars</label>
+            <div class="section-1">Overall Rating
+                <label for="option1"><input type="radio" id="option1" name="options" value="option1"> 1 Star</label>
+                <label for="option2"><input type="radio" id="option2" name="options" value="option2"> 2 Stars</label>
                 <label for="option3"><input type="radio" id="option3" name="options" value="option3"> 3 Stars</label>
                 <label for="option4"><input type="radio" id="option4" name="options" value="option4"> 4 Stars</label>
                 <label for="option5"><input type="radio" id="option5" name="options" value="option5"> 5 Stars</label>
-            </label>
+            </div>
             <label>Date of Installation:
                 <input type="date" name="date">
             </label>
-            <label>Which features did you find useful?
+            <div>Which features did you find useful?
 
-                <label for="option1"><input type="checkbox" id="option1" name="preferences" value="option1"> Ease of
+                <label for="checkbox1"><input type="checkbox" id="checkbox1" name="preferences" value="option1"> Ease of
                     Use</label>
-                <label for="option2"><input type="checkbox" id="option2" name="preferences" value="option2">
+                <label for="checkbox2"><input type="checkbox" id="checkbox2" name="preferences" value="option2">
                     Durability</label>
-                <label for="option3"><input type="checkbox" id="option3" name="preferences" value="option3">
+                <label for="checkbox3"><input type="checkbox" id="checkbox3" name="preferences" value="option3">
                     Efficiency</label>
-                <label for="option4"><input type="checkbox" id="option4" name="preferences" value="option4">
+                <label for="checkbox4"><input type="checkbox" id="checkbox4" name="preferences" value="option4">
                     Efficacy</label>
-            </label>
+            </div>
             <label>Written Review: (optional)
-                <input type="text" name="text">
+                <textarea name="text"></textarea>
             </label>
             <label>Name: (optional)
                 <input type="text" name="given-name">

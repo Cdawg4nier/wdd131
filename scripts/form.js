@@ -44,12 +44,10 @@ function fillForm() {
 
 fillForm();
 
-let reviewCount = localStorage.getItem('reviewCount') ? parseInt(localStorage.getItem('reviewCount')) : 0;
+let reviewCount = parseInt(localStorage.getItem('reviewCount')) || 0;
 
 const form = document.querySelector('form');
 form.addEventListener('submit', function (e) {
     reviewCount++;
     localStorage.setItem('reviewCount', reviewCount);
-    console.log(reviewCount);
-    console.log("I am getting here");
 });
