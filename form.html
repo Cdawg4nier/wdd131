@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Practice with Forms</title>
+    <meta name="description"
+        content="WDD 131 - A website designed to have a product review form with industry standard practices">
+    <meta name="author" content="Christian Fournier">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get">
+            <label>Choose an option:
+                <select id="dropdown" name="products" required>
+                    <option value="" disabled selected>Select an option</option>
+                </select>
+            </label>
+            <label class="section-1">Overall Rating
+                <label for="option1"><input type="radio" id="option2" name="options" value="option2"> 1 Star</label>
+                <label for="option2"><input type="radio" id="option1" name="options" value="option1" required> 2
+                    Stars</label>
+                <label for="option3"><input type="radio" id="option3" name="options" value="option3"> 3 Stars</label>
+                <label for="option4"><input type="radio" id="option4" name="options" value="option4"> 4 Stars</label>
+                <label for="option5"><input type="radio" id="option5" name="options" value="option5"> 5 Stars</label>
+            </label>
+            <label>Date of Installation:
+                <input type="date" name="date">
+            </label>
+            <label>Which features did you find useful?
+
+                <label for="option1"><input type="checkbox" id="option1" name="preferences" value="option1"> Ease of
+                    Use</label>
+                <label for="option2"><input type="checkbox" id="option2" name="preferences" value="option2">
+                    Durability</label>
+                <label for="option3"><input type="checkbox" id="option3" name="preferences" value="option3">
+                    Efficiency</label>
+                <label for="option4"><input type="checkbox" id="option4" name="preferences" value="option4">
+                    Efficacy</label>
+            </label>
+            <label>Written Review: (optional)
+                <input type="text" name="text">
+            </label>
+            <label>Name: (optional)
+                <input type="text" name="given-name">
+            </label>
+            <label><input type="submit" id=submitButton value="Upload My Review"></label>
+        </form>
+    </main>
+    <footer>
+        <p> ©<span id="current-year"> </span> Christian Fournier, United States</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+
+</html>

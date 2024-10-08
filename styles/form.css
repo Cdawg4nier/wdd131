@@ -1,0 +1,76 @@
+:root {
+    --header-font: 'Space Mono', 'Franklin Gothic Medium', 'Arial';
+    --primary-font: 'Roboto', 'Gill Sans', 'Gill Sans MT';
+    --secondary-font: 'Amita', 'Times New Roman', Times, serif;
+    --color-1: #000000;
+    --color-2: #41EAD4;
+    --color-3: #FFFBFE;
+    --color-4: #AAA9AD;
+    --color-5: #496A81;
+    background-color: var(--color-5);
+}
+
+form {
+    margin: 0 auto;
+    border: 3px solid var(--color-1);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    font-size: large;
+    font-family: var(--primary-font);
+}
+
+label {
+    display: block;
+    padding-top: 10px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    padding: 10px;
+    padding-top: 15px;
+}
+
+select,
+input[type="date"],
+input[type="text"] {
+    display: block;
+    border: solid 1px var(--color-2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+    max-width: 550px;
+    background-color: var(--color-5);
+    color: var(--color-3);
+}
+
+select {
+    padding: 10px;
+}
+
+header {
+    background-color: var(--color-1);
+    color: var(--color-3);
+    padding: 10px;
+    font-family: var(--header-font);
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+input[type="submit"] {
+    border: 3px solid var(--color-2);
+    background-color: var(--color-1);
+    color: var(--color-3);
+    border-radius: 5px;
+    padding: 20px;
+    width: 96%;
+    margin: 1rem 2% 1rem 2%;
+}
+
+footer {
+    font-family: var(--primary-font);
+    background-color: var(--color-1);
+    color: var(--color-3);
+    padding: 20px;
+    text-align: center;
+}
