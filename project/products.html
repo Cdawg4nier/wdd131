@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <meta name="description"
+        content="A webpage that shows all of Rexagon Labs currently available products, as well as info on WIP projects">
+    <meta name="author" content="Christian Fournier">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita&family=Roboto&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <script src="scripts/website.js" defer></script>
+    <script src="scripts/products.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <picture id="main-logo">
+            <source srcset="images/rexagon-labs-logo-large.webp" media="(min-width: 500px)">
+            <img src="images/rexagon-labs-logo-small.webp" alt="Rexagon Labs Logo" loading="lazy">
+        </picture>
+        <h1 id="header-name">Rexagon Labs</h1>
+        <h2 id="header-tagline">A good game should earn your money</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a>|</a>
+            <a href="products.html">Products</a>
+            <a>|</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <div id="section-3">
+            <div id="inner-div-3">
+                <h2>Products</h2>
+                <p>Coming Soon!</p>
+            </div>
+        </div>
+        <div id="section-4">
+            <h2 id="section-4-header"> Upcoming Projects:</h2>
+            <h3>Gode: Rogue</h3>
+            <p id="section-4-p">Gode: Rogue is a 20-45 minute Deckbuilding strategy game for 1 to 6 players. Players
+                will take turns playing cards from their hand on their turn to acquire resources, such as gold, card
+                draws, or extra card plays, and then spending those resources to recruit powerful mercenaries from a
+                shop.
+                Their goal will be to gather enough combat power on their turn to overpower and defeat an automata boss,
+                which is recruiting mercenaries and adding them to a deck of its own.</p>
+
+            <div id="gallery-container">
+                <button id="prev-btn" class="arrow-btn">❮</button>
+                <div id="gallery">
+
+                    <figure>
+                        <img src="images/demo-image-1.webp"
+                            alt="A simple playing card titled trooper, with some game elements underneath"
+                            loading="lazy">
+                        <figcaption>A basic Trooper playing card, with a front and a back. The Captain is unlocked when
+                            the trooper card is augmented and flipped to its backside. </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/demo-image-2.webp"
+                            alt="A special playing card for a hero, with game elements underneath the title, 'Nekrethoss'"
+                            loading="lazy">
+                        <figcaption>A hero card, Nekrethoss. Heros help give players a direction to build their deck,
+                            and often provide powerful bonuses to specific playstyles.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/demo-image-3.webp" alt="a black and white logo of a futuristic sentry turret"
+                            loading="lazy">
+                        <figcaption>Early concept art for the basic 'Defense turret' card.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/demo-image-5.webp" alt="A concept design for a playing card with game elements"
+                            loading="lazy">
+                        <figcaption>Concept design for the frontside of all basic cards. The intent is that the front of
+                            the card
+                            will be black and white, with only splashes of color in important places.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/demo-image-4.webp"
+                            alt="A concept design for a vibrantly colorful playing card with game elements"
+                            loading="lazy">
+                        <figcaption>Once a card has been augmented, it reveals its true color and art on the backside.
+                        </figcaption>
+                    </figure>
+                </div>
+                <button id="next-btn" class="arrow-btn">❯</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://x.com/RexagonLabsLLC?t=K0jKs7Ckdt8geeXF0TP7Lg&s=09" target="_blank" id="x-logo">
+                <img src="images/x-logo.png" alt="X profile" width="40" height="40" loading="lazy">
+            </a>
+            <a href="https://rumble.com/user/RexagonLabs_LLC" target="_blank">
+                <img src="images/rumble-logo.png" alt="Rumble profile" width="40" height="40" loading="lazy">
+            </a>
+        </div>
+        <span>Follow us on social media!</span><br><br>
+        <p> ©<span id="current-year"> </span> Christian Fournier, United States</p>
+        <p id="last-modified"></p>
+    </footer>
+
+</body>
+
+</html>
